@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.66.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^7.0.12",
+    "pg": "^8.17.2",
+    "pino": "^10.2.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0"
+  }
+}
