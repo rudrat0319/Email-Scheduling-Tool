@@ -318,5 +318,3 @@ npm run worker
 This submission intentionally prioritizes **backend system design, reliability, and correctness**, which are the most critical aspects of large-scale email scheduling systems. The remaining frontend, deployment, and demo steps are largely execution-oriented and can be completed with limited additional effort.
 
 ---
-
-If you want, I can **shorten this README**, **tailor it to a backend-only role**, or help you add a **one-paragraph submission note** to include in the assignment portal.
