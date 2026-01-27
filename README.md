@@ -105,20 +105,6 @@ Due to time constraints close to the deadline, the primary focus of this submiss
 * Structured error handling
 * DTO-based request/response contracts
 
----
-
-## What Is Not Fully Implemented (Due to Time Constraints)
-
-The following items are **not completed** due to time limitations near the deadline:
-
-* Frontend UI (React / Next.js dashboard)
-* Deployment to Render
-* Demo video recording
-
-The backend APIs, data models, and flows are **fully prepared** to support these components with minimal additional work.
-
----
-
 ## Backend Architecture Overview
 
 ### High-Level Flow
