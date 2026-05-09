@@ -4,8 +4,6 @@
 
 This repository contains a **backend-first implementation** of an email scheduling system inspired by real-world email infrastructure. The system is designed to reliably schedule and send emails at scale using **BullMQ delayed jobs (no cron)**, **Redis**, and **PostgreSQL**, with strong guarantees around **persistence, idempotency, concurrency, and rate limiting**.
 
-Due to time constraints close to the deadline, the primary focus of this submission is the **backend architecture and core scheduling logic**. The backend is fully structured to support the required frontend, deployment, and demo with minimal additional work.
-
 ---
 
 ## Tech Stack
