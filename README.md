@@ -18,16 +18,7 @@ This repository contains a **backend-first implementation** of an email scheduli
 * **Redis**
 * **Nodemailer + Ethereal Email (SMTP)**
 
-### Frontend (planned / partially wired)
-
-* **Next.js**
-* **NextAuth**
-* **React**
-* **Tailwind CSS**
-
 ---
-
-## What Is Fully Implemented
 
 ### 1. Authentication Architecture
 
@@ -103,26 +94,7 @@ This repository contains a **backend-first implementation** of an email scheduli
 * Structured error handling
 * DTO-based request/response contracts
 
-## Backend Architecture Overview
 
-### High-Level Flow
-
-```
-Frontend
-   ↓
-Express API (Controllers)
-   ↓
-Services (Business Logic)
-   ↓
-Repositories (PostgreSQL via TypeORM)
-   ↓
-Scheduling Engine (compute send times)
-   ↓
-BullMQ Queue (Redis, delayed jobs)
-   ↓
-Worker Process
-   ↓
-SMTP Provider (Ethereal)
 ```
 
 ### Restart Survivability
@@ -294,11 +266,5 @@ npm run worker
 * Redis is used solely for queue persistence (no cron, no in-memory counters)
 * Ethereal Email is used for safe SMTP testing
 * Frontend and deployment were deprioritized to focus on backend correctness and architecture
-
----
-
-## Closing Note
-
-This submission intentionally prioritizes **backend system design, reliability, and correctness**, which are the most critical aspects of large-scale email scheduling systems. The remaining frontend, deployment, and demo steps are largely execution-oriented and can be completed with limited additional effort.
 
 ---
