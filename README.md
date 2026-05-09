@@ -124,79 +124,20 @@ This repository contains a **backend-first implementation** of an email scheduli
 
 ```
 src/
-  app.ts
-  server.ts
-  routes.ts
-
-  config/
-    index.ts
-    env.schema.ts
-    constants.ts
-
-  errors/
-    AppError.ts
-    ValidationError.ts
-    UnauthorizedError.ts
-    ForbiddenError.ts
-    NotFoundError.ts
-    ConflictError.ts
-    InternalServerError.ts
-
-  middleware/
-    auth.middleware.ts
-    validation.middleware.ts
-    errorHandler.middleware.ts
-    requestId.middleware.ts
-
-  controllers/
-    auth.controller.ts
-    sender.controller.ts
-    emailBatch.controller.ts
-    emailJobs.controller.ts
-
-  services/
-    auth.service.ts
-    sender.service.ts
-    emailScheduling.service.ts
-    schedulingEngine.ts
-    emailJobQuery.service.ts
-    emailDispatch.service.ts
-
-  repositories/
-    user.repository.ts
-    sender.repository.ts
-    emailBatch.repository.ts
-    emailJob.repository.ts
-
-  db/
-    data-source.ts
-    migrations/
-
-  entities/
-    user.entity.ts
-    sender.entity.ts
-    emailBatch.entity.ts
-    emailJob.entity.ts
-
-  dtos/
-    auth/
-    sender/
-    email/
-    pagination/
-
-  queue/
-    queue.types.ts
-    queue.service.ts
-    bullmqEmailQueue.service.ts
-    queue.connection.ts
-
-  worker/
-    index.ts
-    processor.ts
-
-  providers/
-    smtpEmailProvider.ts
-    nodemailerEthereal.provider.ts
+├── app.ts                 
+├── server.ts             
+├── config/               
+├── db/                   
+├── entities/             
+├── repositories/         
+├── services/             
+├── queue/                
+├── worker/               
+├── controllers/          
+├── middleware/           
+├── dtos/                 
+├── errors/               
+└── providers/            
 ```
 
 (Each folder contains focused, single-responsibility modules following controller–service–repository layering.)
