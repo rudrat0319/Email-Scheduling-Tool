@@ -120,24 +120,8 @@ This repository contains a **backend-first implementation** of an email scheduli
 
 ---
 
-## Backend Folder Structure (Final)
-
 ```
-src/
-├── app.ts                 
-├── server.ts             
-├── config/               
-├── db/                   
-├── entities/             
-├── repositories/         
-├── services/             
-├── queue/                
-├── worker/               
-├── controllers/          
-├── middleware/           
-├── dtos/                 
-├── errors/               
-└── providers/            
+          
 ```
 
 (Each folder contains focused, single-responsibility modules following controller–service–repository layering.)
